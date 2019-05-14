@@ -7,6 +7,7 @@ This repository is my capstone project submission for the Udacity's Data Science
 * Project Overview
 * File Descriptions
 * Results
+* Blog post (https://medium.com/@drajsagar/dog-human-error-image-classification-using-cnn-8e85fe6b1782)
 * Licensing, Authors, and Acknowledgements
 
 ## Installation
@@ -39,3 +40,13 @@ Below are main foleders/files for this project:
 ### 6. images: a few images to test the model manually
 
 Note: The dog image dataset used by this project can be downloaded here: https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip The human image dataset can be downloaded here: https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip
+
+
+## Results
+
+1. The model was able to reach an accuracy of 77.8708% on test data.
+2. If a dog image is supplied, the model gives a prediction of the dog breed.
+3.The model is also able to identify the most resembling dog breed of a person.
+
+## Licensing, Authors, and Acknowledgements
+Credits must be given to Udacity for the starter codes and data images used by this project.
