@@ -28,13 +28,12 @@ In this project, I built and trained a neural network model with CNN (Convolutio
 ## File Descriptions 
 Below are main foleders/files for this project:
 
-    haarcascades
-        haarcascade_frontalface_alt.xml: a pre-trained face detector provided by OpenCV
-    bottleneck_features
-        DogVGG19Data.npz: pre-computed the bottleneck features for VGG-19 using dog image data including training, validation, and test
+  1. haarcascades
+    ** haarcascade_frontalface_alt.xml: a pre-trained face detector provided by OpenCV
+  bottleneck_features
+        DogResnet50Data.npz: pre-computed the bottleneck features for Resnet50 using dog image data including training, validation, and test
     saved_models
-        VGG19_model.json: model architecture saved in a json file
-        weights.best.VGG19.hdf5: saved model weights with best validation loss
+        weights.best.Resnet50.hdf5: saved model weights with best validation loss
     dog_app.ipynb: a notebook used to build and train the dog breeds classification model
     extract_bottleneck_features.py: functions to compute bottleneck features given a tensor converted from an image
     images: a few images to test the model manually
